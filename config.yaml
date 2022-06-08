@@ -1,5 +1,18 @@
 news_sites:
+  eluniversal:
+    url: https://www.eluniversal.com.mx
+    queries:
+      #homepage_article_links: '.field-content a'
+      homepage_article_links: '.type-article a'
+  elpais:
+    url: https://elpais.com/chile
+    queries:
+      homepage_article_links: '‘.headline a’'
   latercera:
     url: https://www.latercera.com/
-  elpais:
-    url: https://elpais.com/chile/
+    queries:
+      homepage_article_links: ''
+  forbes:
+    url: https://forbes.co
+    queries:
+      homepage_article_links: '.channel__content a'
