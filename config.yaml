@@ -1,0 +1,5 @@
+news_sites:
+  latercera:
+    url: https://www.latercera.com/
+  elpais:
+    url: https://elpais.com/chile/
